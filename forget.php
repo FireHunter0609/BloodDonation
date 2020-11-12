@@ -2,10 +2,8 @@
 <html>
 <head>
 <title>Blood Donation Website</title>
-<!--
 <link rel="stylesheet" href="CSS/home1.css">
 <link rel="stylesheet" href="CSS/pass.css">
--->
 </head>
 <body>
 
