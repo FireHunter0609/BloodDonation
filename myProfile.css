@@ -1,0 +1,64 @@
+body{
+    background-color: white;
+    margin: 0 auto;
+    font-family: serif;
+}
+.topnav-right {
+    overflow: hidden;
+    background-color: black;
+  }
+.topnav-right a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 35px;
+    text-decoration: none;
+  }
+  
+.topnav-right a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+  .topnav {
+    overflow: hidden;
+    background-color:black;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.Header{
+    height: 100px;
+    margin: 0px;
+    padding:15px;
+    background-color:darkblue;
+    text-align: center;
+    color:white;
+}
+.active{
+    background-color:grey;
+    color: black;
+}
+
+input[type=text]
+{
+  width: 200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid darkgreen;
+  background-color:rgba(0,255,0,0.2);
+  color:black;
+}

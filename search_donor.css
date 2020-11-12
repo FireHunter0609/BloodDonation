@@ -1,0 +1,90 @@
+body{
+    background-color: white;
+    margin: 0 auto;
+}
+.topnav-right {
+    overflow: hidden;
+    background-color: black;
+  }
+.topnav-right a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 35px;
+    text-decoration: none;
+  }
+  
+.topnav-right a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+  .topnav {
+    overflow: hidden;
+    background-color:black;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.Header{
+        height: 100px;
+        margin-top: 0px;
+        padding-top: 10px;
+        background-color:darkblue;
+        text-align: center;
+        color:white;
+      }
+
+input[type=submit]{
+    background-color:green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width:200px;
+}
+#bg{
+    background-color: rgba(0,255,0,0.2);
+    color:black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid darkgreen;
+    border-radius: 20px;
+    cursor: pointer;
+    width:200px;
+}
+th{
+    border-width: 1px;
+    border-style: solid;
+    border-color:darkgreen;
+    border-spacing: 2px;
+    background-color: rgba(0,255,0,0.2);
+    font-size: 15px;
+    padding: 12px;
+    color:black;
+}
+td{
+    background-color: rgba(187, 182, 182, 0.8);
+    padding: 6px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 2px;
+    text-shadow: px;
+}
+td:hover{
+    background-color: rgba(187, 182, 182, 0.6);
+}

@@ -1,0 +1,88 @@
+body{
+    background-color: white;
+    margin: 0 auto;
+}
+.topnav-right {
+    overflow: hidden;
+    background-color: black;
+}
+.topnav-right a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 35px;
+    text-decoration: none;
+}
+  
+.topnav-right a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color:black;
+}
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+h2{
+    text-align: center;
+    }
+
+.Header{
+    height: 100px;
+    margin: 0px;
+    padding:10px;
+    background-color:darkblue;
+    text-align: center;
+    color:white;
+}
+input[type=text],input[type=email],textarea{
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid darkgreen;
+    background-color: rgba(0,255,0,0.2);
+    color:black;
+  }
+  input[type=submit]
+  {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid darkblue;
+    background-color:rgba(0,0,255,0.4);
+    color:black;
+  }
+  input[type=submit]:hover{
+      background-color: aqua;
+  }
+.Footer{
+        height: 100px;
+        margin: 0px;
+        padding:10px;
+        background-color:darkblue;
+        text-align: center;
+        color:white;
+    }
+.active{
+    background-color: grey;
+}
